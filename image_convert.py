@@ -6,7 +6,7 @@ from PIL import Image
 img_dir = r"/home/geeobcr/convert_images/images"
 output_dir = r"/opt/icons/"
 size = (128,128)
-rotation = 90
+rotation = -90
 
 # Create Directory if doesn't exist
 if not os.path.exists(output_dir):
